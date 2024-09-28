@@ -6,7 +6,7 @@ import sounddevice as sd
 import json
 from vosk import Model, KaldiRecognizer
 
-# โหลดโมเดลภาษาไทย (ต้องโหลดโมเดลมาและชี้ไปยัง path ที่ถูกต้อง)
+
 model = Model("vosk-model-small-en-us-0.15")
 
 # ตั้งค่าคิวสำหรับจัดการข้อความใน real-time
