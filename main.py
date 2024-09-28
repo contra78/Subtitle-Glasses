@@ -9,7 +9,7 @@ from vosk import Model, KaldiRecognizer
 
 model = Model("vosk-model-small-en-us-0.15")
 
-# ตั้งค่าคิวสำหรับจัดการข้อความใน real-time
+
 q = queue.Queue()
 
 # ฟังก์ชันสำหรับฟังเสียงและแปลงเป็นข้อความแบบ real-time
