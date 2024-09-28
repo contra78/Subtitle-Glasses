@@ -12,7 +12,7 @@ model = Model("vosk-model-small-en-us-0.15")
 
 q = queue.Queue()
 
-# ฟังก์ชันสำหรับฟังเสียงและแปลงเป็นข้อความแบบ real-time
+
 def recognize_speech_in_background():
     recognizer = KaldiRecognizer(model, 16000)
 
