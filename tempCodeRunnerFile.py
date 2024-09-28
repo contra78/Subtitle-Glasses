@@ -1,0 +1,2 @@
+
+    recognizer = sr.Recognizer()
